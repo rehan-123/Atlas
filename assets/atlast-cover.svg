@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Atlast — map the work, find the next step</title>
+  <desc id="desc">A glowing network atlas connects learning, troubleshooting, and incident response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="24" x2="1142" y2="427" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081725"/>
+      <stop offset=".54" stop-color="#0B1C2B"/>
+      <stop offset="1" stop-color="#111B31"/>
+    </linearGradient>
+    <linearGradient id="line" x1="708" y1="99" x2="1080" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E0BE"/>
+      <stop offset=".54" stop-color="#6CA7FF"/>
+      <stop offset="1" stop-color="#F0B96A"/>
+    </linearGradient>
+    <linearGradient id="titleGlow" x1="118" y1="150" x2="586" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBFF"/>
+      <stop offset="1" stop-color="#B7D5E9"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="matrix(194 0 0 166 931 218)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36BDA8" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#36BDA8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#9CC2D9" fill-opacity=".12"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="28" fill="url(#dots)"/>
+  <path d="M23 94C174 14 310 58 438 21s243-8 324 33m-741 322c137-82 276-28 389-61s232-36 309-2m321-273c-56 73-35 117-3 166s44 108-14 194m113-336c-61 52-70 98-43 146s42 108 2 158" fill="none" stroke="#4C7489" stroke-opacity=".18" stroke-width="1.5"/>
+  <ellipse cx="931" cy="218" rx="194" ry="166" fill="url(#halo)"/>
+
+  <g transform="translate(78 72)">
+    <circle cx="31" cy="31" r="29" fill="#102B3B" stroke="#2B5767" stroke-width="1.5"/>
+    <circle cx="31" cy="31" r="20" fill="none" stroke="#3C7080" stroke-opacity=".72"/>
+    <path d="m31 10 7 17 15 7-18 1-8 17 1-18-17-8 18 1z" fill="url(#line)"/>
+    <circle cx="31" cy="31" r="3" fill="#F3C16D"/>
+    <text x="73" y="39" fill="#D6E7F0" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="650" letter-spacing="3">A FIELD GUIDE TO IT</text>
+  </g>
+
+  <text x="104" y="214" fill="url(#titleGlow)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="82" font-weight="760" letter-spacing="-4">Atlast</text>
+  <text x="108" y="260" fill="#63D6C0" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="650" letter-spacing="2.6">MAP THE WORK. FIND THE NEXT STEP.</text>
+  <text x="108" y="305" fill="#A6BAC8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="18">Learn the systems. Fix the issue. Keep the service running.</text>
+
+  <g transform="translate(108 350)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" font-weight="650" letter-spacing="1.5">
+    <rect width="102" height="32" rx="16" fill="#10352F" stroke="#2F746A"/>
+    <circle cx="17" cy="16" r="4" fill="#53DFC1"/>
+    <text x="30" y="20" fill="#BAF3E5">LEARN</text>
+    <rect x="116" width="128" height="32" rx="16" fill="#132A45" stroke="#385E8D"/>
+    <circle cx="133" cy="16" r="4" fill="#77B4FF"/>
+    <text x="146" y="20" fill="#C9DFFF">TROUBLESHOOT</text>
+    <rect x="258" width="112" height="32" rx="16" fill="#372C22" stroke="#816440"/>
+    <circle cx="275" cy="16" r="4" fill="#F0B96A"/>
+    <text x="288" y="20" fill="#FFE0AE">RESPOND</text>
+  </g>
+
+  <g fill="none" stroke="url(#line)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="m791 122 93 31 64-52 79 49 57-33m-200 36-31 90 88 30 72-74 71 48m-200-4-56 83 113 35 72-47 71 14m-205-194 8 103m80-72 88-38m-88 38 88 104m-15-178-8 105m72-29 44 102m-100 43 100-43"/>
+    <path d="m791 122 151 123m-58-92 113 99m-145-9 161 48m-105-131-55 166m168-57 43 71" stroke="#6A9AB0" stroke-opacity=".44" stroke-dasharray="4 7"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="791" cy="122" r="7" fill="#58DCC0"/><circle cx="884" cy="153" r="5" fill="#5CCFC2"/>
+    <circle cx="948" cy="101" r="6" fill="#76C8E0"/><circle cx="1027" cy="150" r="7" fill="#76AEFF"/>
+    <circle cx="1084" cy="117" r="4" fill="#F0BD74"/><circle cx="853" cy="243" r="6" fill="#60CFBF"/>
+    <circle cx="941" cy="273" r="8" fill="#63B9FF"/><circle cx="1013" cy="199" r="5" fill="#8DBBFA"/>
+    <circle cx="1084" cy="247" r="6" fill="#E8B670"/><circle cx="797" cy="326" r="4" fill="#70D2C3"/>
+    <circle cx="910" cy="361" r="7" fill="#61B6F8"/><circle cx="982" cy="314" r="5" fill="#79B7E5"/>
+    <circle cx="1053" cy="328" r="8" fill="#F0BB6C"/>
+  </g>
+
+  <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" font-weight="650" letter-spacing="1.3" fill="#A7C3D3">
+    <text x="770" y="104">FUNDAMENTALS</text><text x="905" y="82">NETWORK</text>
+    <text x="1004" y="128">SECURITY</text><text x="1071" y="100">TOOLS</text>
+    <text x="822" y="229">SUPPORT</text><text x="920" y="296">PLAYBOOKS</text>
+    <text x="1035" y="224">OPERATIONS</text><text x="887" y="389">CLOUD</text>
+    <text x="1027" y="355">THE NEXT STEP</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="438" rx="27" stroke="#B4D2E1" stroke-opacity=".12" stroke-width="2"/>
+</svg>
