@@ -10,10 +10,10 @@
   &nbsp; · &nbsp;
   <a href="CONTRIBUTING.md">✍️ Contribute</a>
   <br><br>
-  <img src="https://img.shields.io/badge/Obsidian-vault-8B6CEF?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault">
-  <img src="https://img.shields.io/badge/Guides-76-42C7B7?style=flat-square" alt="76 help desk guides">
-  <img src="https://img.shields.io/badge/Playbooks-48-F2B86B?style=flat-square" alt="48 playbooks">
-  <img src="https://img.shields.io/badge/Offline--friendly-yes-6A9EFF?style=flat-square" alt="Offline friendly">
+  <img src="https://img.shields.io/badge/OBSIDIAN-KNOWLEDGE_VAULT-8E78F5?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111D2B" alt="Obsidian knowledge vault">
+  <img src="https://img.shields.io/badge/76-GUIDES-52E3C2?style=for-the-badge&labelColor=111D2B" alt="76 help desk guides">
+  <img src="https://img.shields.io/badge/48-PLAYBOOKS-F1BF70?style=for-the-badge&labelColor=111D2B" alt="48 incident playbooks">
+  <img src="https://img.shields.io/badge/OFFLINE-FRIENDLY-5F9FFF?style=for-the-badge&labelColor=111D2B" alt="Offline friendly">
 </div>
 
 <br>
@@ -21,6 +21,12 @@
 ## Find your way through IT
 
 New to support? Start with the basics. On a ticket? Follow the first checks. An alert just fired? Open a playbook. **Atlast connects the next step to the tool, concept, and reference behind it**—so useful knowledge is easier to find when you need it.
+
+<br>
+
+<div align="center">
+  <img src="assets/atlas-knowledge-map.svg" width="100%" alt="The Atlast knowledge map connects learning, troubleshooting, incident response, system concepts, tools, and quick references around one compass.">
+</div>
 
 <table>
   <tr>

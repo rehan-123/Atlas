@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">The Atlast knowledge map</title>
+  <desc id="desc">A central compass connects six practical destinations: learn, fix, respond, understand, explore, and look up.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091625"/><stop offset="1" stop-color="#102b40"/></linearGradient>
+    <linearGradient id="route" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#52e3c2"/><stop offset=".56" stop-color="#5f9fff"/><stop offset="1" stop-color="#f1bf70"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#52e3c2" stop-opacity=".2"/><stop offset="1" stop-color="#52e3c2" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d9f5ff" stroke-opacity=".035"/></pattern>
+    <marker id="dot" markerWidth="8" markerHeight="8" refX="4" refY="4"><circle cx="4" cy="4" r="3" fill="#f1bf70"/></marker>
+  </defs>
+  <rect width="1100" height="430" rx="24" fill="url(#bg)"/>
+  <rect width="1100" height="430" rx="24" fill="url(#grid)"/>
+  <ellipse cx="550" cy="218" rx="300" ry="190" fill="url(#glow)" filter="url(#soft)"/>
+  <text x="42" y="52" fill="#52e3c2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.5">ONE IDEA LEADS TO THE NEXT</text>
+  <text x="42" y="88" fill="#eff8ff" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="27" font-weight="700">A map for the moments that matter</text>
+  <text x="42" y="116" fill="#9cb6c9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">Build the foundation. Find the fix. Follow the thread to what comes next.</text>
+
+  <g fill="none" stroke="url(#route)" stroke-width="2.5" stroke-linecap="round" opacity=".76">
+    <path d="M550 240 C460 196 360 172 220 190" marker-end="url(#dot)"/>
+    <path d="M550 240 C506 192 488 172 465 160" marker-end="url(#dot)"/>
+    <path d="M550 240 C612 194 672 174 790 184" marker-end="url(#dot)"/>
+    <path d="M550 240 C453 292 356 309 220 300" marker-end="url(#dot)"/>
+    <path d="M550 240 C550 284 550 305 550 322" marker-end="url(#dot)"/>
+    <path d="M550 240 C665 292 741 310 880 298" marker-end="url(#dot)"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <g transform="translate(65 154)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#52e3c2" stroke-opacity=".65"/><circle cx="34" cy="37" r="17" fill="#52e3c2" fill-opacity=".15"/><text x="34" y="43" text-anchor="middle" fill="#52e3c2" font-size="18">↗</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Learn</text><text x="62" y="55" fill="#9cb6c9" font-size="12">Build skills, step by step</text></g>
+    <g transform="translate(360 126)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#5f9fff" stroke-opacity=".72"/><circle cx="34" cy="37" r="17" fill="#5f9fff" fill-opacity=".16"/><text x="34" y="43" text-anchor="middle" fill="#8dbbff" font-size="18">⌘</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Understand</text><text x="62" y="55" fill="#9cb6c9" font-size="12">See the system behind it</text></g>
+    <g transform="translate(725 148)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#a78bfa" stroke-opacity=".7"/><circle cx="34" cy="37" r="17" fill="#a78bfa" fill-opacity=".16"/><text x="34" y="43" text-anchor="middle" fill="#c6b5ff" font-size="18">⌕</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Explore</text><text x="62" y="55" fill="#9cb6c9" font-size="12">Follow tools and connections</text></g>
+    <g transform="translate(65 264)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#f1bf70" stroke-opacity=".72"/><circle cx="34" cy="37" r="17" fill="#f1bf70" fill-opacity=".16"/><text x="34" y="43" text-anchor="middle" fill="#f1bf70" font-size="18">⚒</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Fix</text><text x="62" y="55" fill="#9cb6c9" font-size="12">Work a clear troubleshooting path</text></g>
+    <g transform="translate(445 322)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#ff8e78" stroke-opacity=".7"/><circle cx="34" cy="37" r="17" fill="#ff8e78" fill-opacity=".16"/><text x="34" y="43" text-anchor="middle" fill="#ff9b86" font-size="18">!</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Respond</text><text x="62" y="55" fill="#9cb6c9" font-size="12">Use playbooks when it counts</text></g>
+    <g transform="translate(825 262)"><rect width="210" height="74" rx="16" fill="#10263a" stroke="#52e3c2" stroke-opacity=".55"/><circle cx="34" cy="37" r="17" fill="#52e3c2" fill-opacity=".13"/><text x="34" y="43" text-anchor="middle" fill="#52e3c2" font-size="18">⌕</text><text x="62" y="34" fill="#eff8ff" font-size="17" font-weight="700">Look up</text><text x="62" y="55" fill="#9cb6c9" font-size="12">Keep useful facts close at hand</text></g>
+  </g>
+
+  <g transform="translate(550 240)">
+    <circle r="59" fill="#0b1d2c" stroke="#52e3c2" stroke-opacity=".6" stroke-width="1.5"/>
+    <circle r="48" fill="none" stroke="#5f9fff" stroke-opacity=".27" stroke-dasharray="2 6"/>
+    <path d="M0-31 10-5 27 7 4 4-9 29-4 5-27-8-4-4Z" fill="url(#route)"/>
+    <circle r="4" fill="#f1bf70"/>
+    <text x="0" y="76" text-anchor="middle" fill="#eff8ff" font-size="12" font-weight="700" letter-spacing="1.4">ATLAST</text>
+  </g>
+  <rect x=".75" y=".75" width="1098.5" height="428.5" rx="23.25" fill="none" stroke="#34536a" stroke-opacity=".8" stroke-width="1.5"/>
+</svg>
