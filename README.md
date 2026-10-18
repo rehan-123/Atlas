@@ -20,7 +20,7 @@
 
 ## Find your way through IT
 
-New to support? Start with the basics. On a ticket? Follow the first checks. An alert just fired? Open a playbook. **Atlast connects the next step to the tool, concept, and reference behind it**—so useful knowledge is easier to find when you need it.
+On a ticket? Start with the checks. Learning IT? Follow the path. An alert fired? Open a playbook. **Atlast links each step to the tools and concepts behind it.**
 
 <br>
 
@@ -28,13 +28,13 @@ New to support? Start with the basics. On a ticket? Follow the first checks. An 
   <img src="assets/atlas-path.svg" width="100%" alt="A three-step IT guide: learn the system, find the cause, then make the next move, supported by concepts, tools, and quick references.">
 </div>
 
-The same map helps you **learn the foundations**, **understand what a symptom points to**, then **follow a proven response**. Concepts, tools, vendor notes, and quick references are linked along the way.
+Each path links to relevant concepts, tools, vendor notes, and quick references.
 
 <br>
 
 ## The atlas at a glance
 
-<p align="center"><strong>76</strong> help desk guides &nbsp;·&nbsp; <strong>348</strong> tool notes &nbsp;·&nbsp; <strong>133</strong> concepts &nbsp;·&nbsp; <strong>48</strong> incident playbooks &nbsp;·&nbsp; <strong>170</strong> vendor notes</p>
+<p align="center"><strong>76</strong> guides &nbsp;·&nbsp; <strong>348</strong> tools &nbsp;·&nbsp; <strong>133</strong> concepts<br><strong>48</strong> playbooks &nbsp;·&nbsp; <strong>170</strong> vendor notes</p>
 
 <br>
 
