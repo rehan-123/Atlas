@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets/atlast-cover.svg" alt="Atlast — map the work, find the next step" width="100%">
+  <img src="assets/atlast-cover.png" alt="A glowing map connects servers, cloud, security, support, and a compass" width="100%">
   <br><br>
+  <h1>Atlast</h1>
   <strong>One connected atlas for learning IT, fixing problems, and keeping services running.</strong>
   <br><br>
   <a href="demo/IT-Atlas.html">✦ Explore the interactive demo</a>
