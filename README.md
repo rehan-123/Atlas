@@ -10,10 +10,10 @@
   &nbsp; · &nbsp;
   <a href="CONTRIBUTING.md">✍️ Contribute</a>
   <br><br>
-  <img src="https://img.shields.io/badge/OBSIDIAN-KNOWLEDGE_VAULT-8E78F5?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111D2B" alt="Obsidian knowledge vault">
-  <img src="https://img.shields.io/badge/76-GUIDES-52E3C2?style=for-the-badge&labelColor=111D2B" alt="76 help desk guides">
-  <img src="https://img.shields.io/badge/48-PLAYBOOKS-F1BF70?style=for-the-badge&labelColor=111D2B" alt="48 incident playbooks">
-  <img src="https://img.shields.io/badge/OFFLINE-FRIENDLY-5F9FFF?style=for-the-badge&labelColor=111D2B" alt="Offline friendly">
+  <img src="https://img.shields.io/badge/Obsidian-vault-8E78F5?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault">
+  <img src="https://img.shields.io/badge/76-guides-42C7B7?style=flat-square" alt="76 help desk guides">
+  <img src="https://img.shields.io/badge/48-playbooks-F2B86B?style=flat-square" alt="48 incident playbooks">
+  <img src="https://img.shields.io/badge/offline-friendly-6A9EFF?style=flat-square" alt="Offline friendly">
 </div>
 
 <br>
@@ -28,34 +28,13 @@ New to support? Start with the basics. On a ticket? Follow the first checks. An 
   <img src="assets/atlas-knowledge-map.svg" width="100%" alt="The Atlast knowledge map connects learning, troubleshooting, incident response, system concepts, tools, and quick references around one compass.">
 </div>
 
-<table>
-  <tr>
-    <td width="33%"><h3>🧭 Learn</h3><p>A 10-week path from computer basics to running a NOC, plus career tracks from junior tech to senior engineer.</p></td>
-    <td width="33%"><h3>🛠️ Fix</h3><p>Plain-language guides for everyday Windows, network, email, sign-in, device, and security problems.</p></td>
-    <td width="33%"><h3>🚨 Respond</h3><p>Step-by-step playbooks for incidents like failed backups, offline agents, network outages, and suspected ransomware.</p></td>
-  </tr>
-  <tr>
-    <td><h3>🧠 Understand</h3><p>Connected concepts explain the systems and ideas behind the symptoms.</p></td>
-    <td><h3>🗺️ Explore</h3><p>Browse vendors and tools by category, follow links, or wander the optional 3D knowledge graph.</p></td>
-    <td><h3>📟 Look up</h3><p>Keep ports, event IDs, log paths, product lifecycles, and useful commands close at hand.</p></td>
-  </tr>
-</table>
+The same map helps you **learn the foundations**, **understand what a symptom points to**, then **follow a proven response**. Concepts, tools, vendor notes, and quick references are linked along the way.
 
 <br>
 
 ## The atlas at a glance
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>76</strong><br>help desk guides</td>
-      <td align="center"><strong>348</strong><br>tool notes</td>
-      <td align="center"><strong>133</strong><br>concepts</td>
-      <td align="center"><strong>48</strong><br>incident playbooks</td>
-      <td align="center"><strong>170</strong><br>vendor notes</td>
-    </tr>
-  </table>
-</div>
+<p align="center"><strong>76</strong> help desk guides &nbsp;·&nbsp; <strong>348</strong> tool notes &nbsp;·&nbsp; <strong>133</strong> concepts &nbsp;·&nbsp; <strong>48</strong> incident playbooks &nbsp;·&nbsp; <strong>170</strong> vendor notes</p>
 
 <br>
 
