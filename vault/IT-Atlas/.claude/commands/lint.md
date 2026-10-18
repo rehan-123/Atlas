@@ -1,0 +1,1 @@
+Run the lint script (`python3 _system/vault_lint.py` on Mac or Linux, or `powershell -ExecutionPolicy Bypass -File _system\vault_lint.ps1` on Windows), fix every broken link and missing required field following CLAUDE.md, and summarize what you changed. For orphans, suggest where to link them and ask before linking.

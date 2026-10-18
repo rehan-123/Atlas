@@ -1,0 +1,191 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"00 Home\" -path:\"40 Reference\" -path:\"50 Vendors\" -path:\"90 Templates\" -path:\"_system\" -file:\"Start here\" -file:CLAUDE",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"00 Home\"",
+      "color": {
+        "a": 1,
+        "rgb": 8947584
+      }
+    },
+    {
+      "query": "path:\"01 RMM\"",
+      "color": {
+        "a": 1,
+        "rgb": 14830410
+      }
+    },
+    {
+      "query": "path:\"02 Monitoring\"",
+      "color": {
+        "a": 1,
+        "rgb": 3640029
+      }
+    },
+    {
+      "query": "path:\"03 PSA & Docs\"",
+      "color": {
+        "a": 1,
+        "rgb": 6250074
+      }
+    },
+    {
+      "query": "path:\"04 Remote Access\"",
+      "color": {
+        "a": 1,
+        "rgb": 13915006
+      }
+    },
+    {
+      "query": "path:\"05 Backup & DR\"",
+      "color": {
+        "a": 1,
+        "rgb": 1941109
+      }
+    },
+    {
+      "query": "path:\"06 Endpoint & Patch\"",
+      "color": {
+        "a": 1,
+        "rgb": 8353757
+      }
+    },
+    {
+      "query": "path:\"07 Security\"",
+      "color": {
+        "a": 1,
+        "rgb": 14178864
+      }
+    },
+    {
+      "query": "path:\"08 Identity\"",
+      "color": {
+        "a": 1,
+        "rgb": 15703847
+      }
+    },
+    {
+      "query": "path:\"09 Networking\"",
+      "color": {
+        "a": 1,
+        "rgb": 1597349
+      }
+    },
+    {
+      "query": "path:\"10 Servers & OS\"",
+      "color": {
+        "a": 1,
+        "rgb": 6527266
+      }
+    },
+    {
+      "query": "path:\"11 Virtualization & Storage\"",
+      "color": {
+        "a": 1,
+        "rgb": 1011286
+      }
+    },
+    {
+      "query": "path:\"12 Cloud & SaaS\"",
+      "color": {
+        "a": 1,
+        "rgb": 8763371
+      }
+    },
+    {
+      "query": "path:\"13 Databases & Apps\"",
+      "color": {
+        "a": 1,
+        "rgb": 10040662
+      }
+    },
+    {
+      "query": "path:\"14 Power & Facilities\"",
+      "color": {
+        "a": 1,
+        "rgb": 12219671
+      }
+    },
+    {
+      "query": "path:\"15 Voice & UC\"",
+      "color": {
+        "a": 1,
+        "rgb": 15569841
+      }
+    },
+    {
+      "query": "path:\"16 Automation\"",
+      "color": {
+        "a": 1,
+        "rgb": 5458615
+      }
+    },
+    {
+      "query": "path:\"17 Help Desk\"",
+      "color": {
+        "a": 1,
+        "rgb": 1548984
+      }
+    },
+    {
+      "query": "path:\"18 DevOps & Containers\"",
+      "color": {
+        "a": 1,
+        "rgb": 12592851
+      }
+    },
+    {
+      "query": "path:\"19 Compliance & Governance\"",
+      "color": {
+        "a": 1,
+        "rgb": 6514417
+      }
+    },
+    {
+      "query": "path:\"20 Concepts\"",
+      "color": {
+        "a": 1,
+        "rgb": 14727240
+      }
+    },
+    {
+      "query": "path:\"30 Playbooks\"",
+      "color": {
+        "a": 1,
+        "rgb": 10693933
+      }
+    },
+    {
+      "query": "path:\"40 Reference\"",
+      "color": {
+        "a": 1,
+        "rgb": 4473921
+      }
+    },
+    {
+      "query": "path:\"50 Vendors\"",
+      "color": {
+        "a": 1,
+        "rgb": 13881799
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 0.6,
+  "collapse-forces": true,
+  "centerStrength": 0.45,
+  "repelStrength": 14,
+  "linkStrength": 1,
+  "linkDistance": 160,
+  "scale": 0.6,
+  "close": false
+}

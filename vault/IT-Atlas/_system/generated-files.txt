@@ -1,0 +1,849 @@
+.claude/commands/add-playbook.md
+.claude/commands/add-tool.md
+.claude/commands/gaps.md
+.claude/commands/lint.md
+.claude/commands/verify.md
+00 Home/Career tracks/Career tracks.md
+00 Home/Career tracks/Track 1 - Junior.md
+00 Home/Career tracks/Track 2 - Sysadmin.md
+00 Home/Career tracks/Track 3 - Senior.md
+00 Home/Home.md
+00 Home/How to use the IT Atlas.md
+00 Home/How to use the IT Brain.md
+00 Home/How to use this atlas.md
+00 Home/Learning path/Learning path.md
+00 Home/Learning path/Week 1 - Computer basics.md
+00 Home/Learning path/Week 1 - How networks work.md
+00 Home/Learning path/Week 10 - Running the NOC.md
+00 Home/Learning path/Week 2 - Fixing everyday problems.md
+00 Home/Learning path/Week 2 - Windows and identity.md
+00 Home/Learning path/Week 3 - How networks work.md
+00 Home/Learning path/Week 3 - Monitoring and the RMM.md
+00 Home/Learning path/Week 4 - Backup and recovery.md
+00 Home/Learning path/Week 4 - Windows and identity.md
+00 Home/Learning path/Week 5 - Monitoring and the RMM.md
+00 Home/Learning path/Week 5 - Security basics.md
+00 Home/Learning path/Week 6 - Backup and recovery.md
+00 Home/Learning path/Week 6 - Network gear and remote access.md
+00 Home/Learning path/Week 7 - Security basics.md
+00 Home/Learning path/Week 7 - Servers, virtualization, storage and cloud.md
+00 Home/Learning path/Week 8 - Network gear and remote access.md
+00 Home/Learning path/Week 8 - Running the NOC.md
+00 Home/Learning path/Week 9 - Servers, virtualization, storage and cloud.md
+00 Home/Notes by level.md
+00 Home/Tool database.md
+01 RMM/Atera.md
+01 RMM/Barracuda RMM.md
+01 RMM/ConnectWise Automate.md
+01 RMM/ConnectWise RMM.md
+01 RMM/Datto RMM.md
+01 RMM/Kaseya VSA.md
+01 RMM/Level.md
+01 RMM/ManageEngine Endpoint Central.md
+01 RMM/N-able N-central.md
+01 RMM/N-able N-sight RMM.md
+01 RMM/NinjaOne.md
+01 RMM/Pulseway.md
+01 RMM/RMM.md
+01 RMM/SuperOps.md
+01 RMM/Syncro.md
+01 RMM/Tactical RMM.md
+02 Monitoring/Alerting & on-call/Alerting & on-call.md
+02 Monitoring/Alerting & on-call/Opsgenie.md
+02 Monitoring/Alerting & on-call/PagerDuty.md
+02 Monitoring/Alerting & on-call/Splunk On-Call.md
+02 Monitoring/Infrastructure & APM/Amazon CloudWatch.md
+02 Monitoring/Infrastructure & APM/Azure Monitor.md
+02 Monitoring/Infrastructure & APM/Datadog.md
+02 Monitoring/Infrastructure & APM/Dynatrace.md
+02 Monitoring/Infrastructure & APM/Grafana.md
+02 Monitoring/Infrastructure & APM/Infrastructure & APM.md
+02 Monitoring/Infrastructure & APM/LogicMonitor.md
+02 Monitoring/Infrastructure & APM/New Relic.md
+02 Monitoring/Infrastructure & APM/Prometheus.md
+02 Monitoring/Log management/Elastic Stack.md
+02 Monitoring/Log management/Graylog.md
+02 Monitoring/Log management/Log management.md
+02 Monitoring/Monitoring & Observability.md
+02 Monitoring/Network monitoring/Auvik.md
+02 Monitoring/Network monitoring/Checkmk.md
+02 Monitoring/Network monitoring/Domotz.md
+02 Monitoring/Network monitoring/LibreNMS.md
+02 Monitoring/Network monitoring/ManageEngine OpManager.md
+02 Monitoring/Network monitoring/Nagios.md
+02 Monitoring/Network monitoring/Network monitoring.md
+02 Monitoring/Network monitoring/PRTG Network Monitor.md
+02 Monitoring/Network monitoring/SolarWinds NPM.md
+02 Monitoring/Network monitoring/WhatsUp Gold.md
+02 Monitoring/Network monitoring/Zabbix.md
+02 Monitoring/Uptime monitoring/Better Stack.md
+02 Monitoring/Uptime monitoring/Pingdom.md
+02 Monitoring/Uptime monitoring/Uptime Kuma.md
+02 Monitoring/Uptime monitoring/Uptime monitoring.md
+02 Monitoring/Uptime monitoring/UptimeRobot.md
+03 PSA & Docs/IT documentation/Confluence.md
+03 PSA & Docs/IT documentation/Hudu.md
+03 PSA & Docs/IT documentation/IT Glue.md
+03 PSA & Docs/IT documentation/IT documentation.md
+03 PSA & Docs/IT documentation/Liongard.md
+03 PSA & Docs/ITSM/Freshservice.md
+03 PSA & Docs/ITSM/ITSM.md
+03 PSA & Docs/ITSM/Jira Service Management.md
+03 PSA & Docs/ITSM/ServiceNow ITSM.md
+03 PSA & Docs/ITSM/Zendesk.md
+03 PSA & Docs/PSA & Documentation.md
+03 PSA & Docs/PSA/Autotask PSA.md
+03 PSA & Docs/PSA/ConnectWise PSA.md
+03 PSA & Docs/PSA/HaloPSA.md
+03 PSA & Docs/PSA/Kaseya BMS.md
+03 PSA & Docs/PSA/PSA.md
+04 Remote Access/AnyDesk.md
+04 Remote Access/Apache Guacamole.md
+04 Remote Access/BeyondTrust Remote Support.md
+04 Remote Access/MeshCentral.md
+04 Remote Access/N-able Take Control.md
+04 Remote Access/RDP.md
+04 Remote Access/Remote Access.md
+04 Remote Access/RustDesk.md
+04 Remote Access/ScreenConnect.md
+04 Remote Access/Splashtop.md
+04 Remote Access/TeamViewer.md
+05 Backup & DR/BCDR appliances/Axcient x360Recover.md
+05 Backup & DR/BCDR appliances/BCDR appliances.md
+05 Backup & DR/BCDR appliances/Barracuda Backup.md
+05 Backup & DR/BCDR appliances/Datto BCDR.md
+05 Backup & DR/BCDR appliances/Unitrends.md
+05 Backup & DR/Backup & DR.md
+05 Backup & DR/Backup storage targets/Amazon S3.md
+05 Backup & DR/Backup storage targets/Azure Blob Storage.md
+05 Backup & DR/Backup storage targets/Backblaze B2.md
+05 Backup & DR/Backup storage targets/Backup storage targets.md
+05 Backup & DR/Backup storage targets/Wasabi.md
+05 Backup & DR/Cloud backup & DR/AWS Backup.md
+05 Backup & DR/Cloud backup & DR/Azure Backup.md
+05 Backup & DR/Cloud backup & DR/Azure Site Recovery.md
+05 Backup & DR/Cloud backup & DR/Cloud backup & DR.md
+05 Backup & DR/Cloud backup & DR/Zerto.md
+05 Backup & DR/Endpoint backup/Carbonite.md
+05 Backup & DR/Endpoint backup/Datto Endpoint Backup.md
+05 Backup & DR/Endpoint backup/Druva.md
+05 Backup & DR/Endpoint backup/Endpoint backup.md
+05 Backup & DR/Endpoint backup/Veeam Agent for Microsoft Windows.md
+05 Backup & DR/Enterprise backup/Cohesity.md
+05 Backup & DR/Enterprise backup/Commvault.md
+05 Backup & DR/Enterprise backup/Enterprise backup.md
+05 Backup & DR/Enterprise backup/Rubrik.md
+05 Backup & DR/Enterprise backup/Veritas Backup Exec.md
+05 Backup & DR/Image & server backup/Acronis Cyber Protect.md
+05 Backup & DR/Image & server backup/Arcserve UDP.md
+05 Backup & DR/Image & server backup/Cove Data Protection.md
+05 Backup & DR/Image & server backup/Image & server backup.md
+05 Backup & DR/Image & server backup/StorageCraft ShadowProtect SPX.md
+05 Backup & DR/Image & server backup/Synology Active Backup for Business.md
+05 Backup & DR/Image & server backup/Windows Server Backup.md
+05 Backup & DR/SaaS backup/AvePoint Cloud Backup.md
+05 Backup & DR/SaaS backup/Datto SaaS Protection.md
+05 Backup & DR/SaaS backup/Dropsuite.md
+05 Backup & DR/SaaS backup/Keepit.md
+05 Backup & DR/SaaS backup/Microsoft 365 Backup.md
+05 Backup & DR/SaaS backup/SaaS backup.md
+05 Backup & DR/SaaS backup/Spanning Backup.md
+05 Backup & DR/SaaS backup/Veeam Backup for Microsoft 365.md
+05 Backup & DR/VM backup/Hornetsecurity VM Backup.md
+05 Backup & DR/VM backup/Nakivo Backup & Replication.md
+05 Backup & DR/VM backup/Proxmox Backup Server.md
+05 Backup & DR/VM backup/VM backup.md
+05 Backup & DR/VM backup/Veeam Backup & Replication.md
+05 Backup & DR/VM backup/Veeam ONE.md
+06 Endpoint & Patch/Endpoint & Patch Management.md
+06 Endpoint & Patch/Hardware vendor tools/Dell Command Update.md
+06 Endpoint & Patch/Hardware vendor tools/HP Image Assistant.md
+06 Endpoint & Patch/Hardware vendor tools/Hardware vendor tools.md
+06 Endpoint & Patch/Hardware vendor tools/Lenovo System Update.md
+06 Endpoint & Patch/Patch management/Action1.md
+06 Endpoint & Patch/Patch management/Automox.md
+06 Endpoint & Patch/Patch management/Patch My PC.md
+06 Endpoint & Patch/Patch management/Patch management.md
+06 Endpoint & Patch/Patch management/WSUS.md
+06 Endpoint & Patch/Patch management/Windows Update for Business.md
+06 Endpoint & Patch/Patch management/Windows Update.md
+06 Endpoint & Patch/Software deployment/Chocolatey.md
+06 Endpoint & Patch/Software deployment/Ninite Pro.md
+06 Endpoint & Patch/Software deployment/PDQ Deploy & Inventory.md
+06 Endpoint & Patch/Software deployment/Software deployment.md
+06 Endpoint & Patch/Software deployment/winget.md
+06 Endpoint & Patch/UEM & MDM/Addigy.md
+06 Endpoint & Patch/UEM & MDM/Apple Business Manager.md
+06 Endpoint & Patch/UEM & MDM/Jamf Pro.md
+06 Endpoint & Patch/UEM & MDM/Kandji.md
+06 Endpoint & Patch/UEM & MDM/Microsoft Configuration Manager.md
+06 Endpoint & Patch/UEM & MDM/Microsoft Intune.md
+06 Endpoint & Patch/UEM & MDM/Mosyle.md
+06 Endpoint & Patch/UEM & MDM/Omnissa Workspace ONE.md
+06 Endpoint & Patch/UEM & MDM/UEM & MDM.md
+06 Endpoint & Patch/UEM & MDM/Windows Autopilot.md
+07 Security/Application control/App Control for Business.md
+07 Security/Application control/AppLocker.md
+07 Security/Application control/Application control.md
+07 Security/Application control/ThreatLocker.md
+07 Security/DNS & web filtering/Cisco Umbrella.md
+07 Security/DNS & web filtering/DNS & web filtering.md
+07 Security/DNS & web filtering/DNSFilter.md
+07 Security/DNS & web filtering/WebTitan.md
+07 Security/EDR & MDR/Arctic Wolf.md
+07 Security/EDR & MDR/Bitdefender GravityZone.md
+07 Security/EDR & MDR/Blackpoint Cyber.md
+07 Security/EDR & MDR/CrowdStrike Falcon.md
+07 Security/EDR & MDR/Datto EDR.md
+07 Security/EDR & MDR/EDR & MDR.md
+07 Security/EDR & MDR/ESET PROTECT.md
+07 Security/EDR & MDR/Huntress.md
+07 Security/EDR & MDR/Microsoft Defender for Endpoint.md
+07 Security/EDR & MDR/SentinelOne.md
+07 Security/EDR & MDR/Sophos Intercept X.md
+07 Security/EDR & MDR/ThreatDown.md
+07 Security/EDR & MDR/Webroot.md
+07 Security/Email security/Avanan.md
+07 Security/Email security/Barracuda Email Protection.md
+07 Security/Email security/Email security.md
+07 Security/Email security/Microsoft Defender for Office 365.md
+07 Security/Email security/Mimecast.md
+07 Security/Email security/Proofpoint.md
+07 Security/Encryption/BitLocker.md
+07 Security/Encryption/Encryption.md
+07 Security/Encryption/FileVault.md
+07 Security/Privileged access & passwords/Bitwarden.md
+07 Security/Privileged access & passwords/CyberArk.md
+07 Security/Privileged access & passwords/Keeper.md
+07 Security/Privileged access & passwords/N-able Passportal.md
+07 Security/Privileged access & passwords/Privileged access & passwords.md
+07 Security/Privileged access & passwords/Windows LAPS.md
+07 Security/SASE & ZTNA/Cato SASE Cloud.md
+07 Security/SASE & ZTNA/Cloudflare Zero Trust.md
+07 Security/SASE & ZTNA/Netskope.md
+07 Security/SASE & ZTNA/Prisma Access.md
+07 Security/SASE & ZTNA/SASE & ZTNA.md
+07 Security/SASE & ZTNA/Twingate.md
+07 Security/SASE & ZTNA/Zscaler.md
+07 Security/SIEM/Blumira.md
+07 Security/SIEM/Microsoft Sentinel.md
+07 Security/SIEM/SIEM.md
+07 Security/SIEM/Splunk.md
+07 Security/SIEM/Wazuh.md
+07 Security/Security.md
+07 Security/Vulnerability management/ConnectSecure.md
+07 Security/Vulnerability management/Microsoft Defender Vulnerability Management.md
+07 Security/Vulnerability management/Qualys VMDR.md
+07 Security/Vulnerability management/Rapid7 InsightVM.md
+07 Security/Vulnerability management/Tenable Nessus.md
+07 Security/Vulnerability management/Vulnerability management.md
+08 Identity/AD CS.md
+08 Identity/AD FS.md
+08 Identity/Active Directory.md
+08 Identity/Duo Security.md
+08 Identity/Entra Cloud Sync.md
+08 Identity/Group Policy.md
+08 Identity/Identity & Access.md
+08 Identity/JumpCloud.md
+08 Identity/Microsoft Authenticator.md
+08 Identity/Microsoft Entra Connect.md
+08 Identity/Microsoft Entra Domain Services.md
+08 Identity/Microsoft Entra ID.md
+08 Identity/Microsoft Entra Privileged Identity Management.md
+08 Identity/NPS.md
+08 Identity/Okta.md
+08 Identity/Ping Identity.md
+09 Networking/DNS & IPAM/Amazon Route 53.md
+09 Networking/DNS & IPAM/Cloudflare DNS.md
+09 Networking/DNS & IPAM/DNS & IPAM.md
+09 Networking/DNS & IPAM/Infoblox.md
+09 Networking/Firewalls/Check Point.md
+09 Networking/Firewalls/Cisco Secure Firewall.md
+09 Networking/Firewalls/Firewalls.md
+09 Networking/Firewalls/FortiGate.md
+09 Networking/Firewalls/Meraki MX.md
+09 Networking/Firewalls/OPNsense.md
+09 Networking/Firewalls/Palo Alto Networks NGFW.md
+09 Networking/Firewalls/SonicWall.md
+09 Networking/Firewalls/Sophos Firewall.md
+09 Networking/Firewalls/WatchGuard Firebox.md
+09 Networking/Firewalls/pfSense.md
+09 Networking/Load balancers/F5 BIG-IP.md
+09 Networking/Load balancers/HAProxy.md
+09 Networking/Load balancers/Kemp LoadMaster.md
+09 Networking/Load balancers/Load balancers.md
+09 Networking/Load balancers/NetScaler ADC.md
+09 Networking/Networking.md
+09 Networking/SD-WAN/Cisco Catalyst SD-WAN.md
+09 Networking/SD-WAN/SD-WAN.md
+09 Networking/SD-WAN/VeloCloud.md
+09 Networking/Switching & routing/Cisco Catalyst.md
+09 Networking/Switching & routing/Extreme Networks.md
+09 Networking/Switching & routing/HPE Aruba Networking.md
+09 Networking/Switching & routing/Juniper Networks.md
+09 Networking/Switching & routing/Meraki MS.md
+09 Networking/Switching & routing/MikroTik.md
+09 Networking/Switching & routing/Switching & routing.md
+09 Networking/VPN/Cisco Secure Client.md
+09 Networking/VPN/FortiClient.md
+09 Networking/VPN/GlobalProtect.md
+09 Networking/VPN/OpenVPN.md
+09 Networking/VPN/VPN.md
+09 Networking/VPN/WireGuard.md
+09 Networking/Wireless/Juniper Mist.md
+09 Networking/Wireless/Meraki MR.md
+09 Networking/Wireless/Ruckus.md
+09 Networking/Wireless/Ubiquiti UniFi.md
+09 Networking/Wireless/Wireless.md
+10 Servers & OS/Operating systems/Linux servers.md
+10 Servers & OS/Operating systems/OpenSSH.md
+10 Servers & OS/Operating systems/Operating systems.md
+10 Servers & OS/Operating systems/Red Hat Enterprise Linux.md
+10 Servers & OS/Operating systems/Samba.md
+10 Servers & OS/Operating systems/Ubuntu Server.md
+10 Servers & OS/Operating systems/Windows Server.md
+10 Servers & OS/Operating systems/Windows client.md
+10 Servers & OS/Operating systems/macOS.md
+10 Servers & OS/Servers & Operating Systems.md
+10 Servers & OS/Windows Server roles/Always On VPN.md
+10 Servers & OS/Windows Server roles/FSLogix.md
+10 Servers & OS/Windows Server roles/Failover Clustering.md
+10 Servers & OS/Windows Server roles/File Server & DFS.md
+10 Servers & OS/Windows Server roles/IIS.md
+10 Servers & OS/Windows Server roles/Print Server.md
+10 Servers & OS/Windows Server roles/RD Gateway.md
+10 Servers & OS/Windows Server roles/RDS.md
+10 Servers & OS/Windows Server roles/RRAS.md
+10 Servers & OS/Windows Server roles/Storage Replica.md
+10 Servers & OS/Windows Server roles/Windows DHCP Server.md
+10 Servers & OS/Windows Server roles/Windows DNS Server.md
+10 Servers & OS/Windows Server roles/Windows Defender Firewall.md
+10 Servers & OS/Windows Server roles/Windows Deployment Services.md
+10 Servers & OS/Windows Server roles/Windows Event Forwarding.md
+10 Servers & OS/Windows Server roles/Windows Server roles.md
+11 Virtualization & Storage/Hypervisors/Azure Local.md
+11 Virtualization & Storage/Hypervisors/Hyper-V.md
+11 Virtualization & Storage/Hypervisors/Hypervisors.md
+11 Virtualization & Storage/Hypervisors/Nutanix AHV.md
+11 Virtualization & Storage/Hypervisors/Proxmox VE.md
+11 Virtualization & Storage/Hypervisors/VMware vSphere.md
+11 Virtualization & Storage/Hypervisors/XenServer.md
+11 Virtualization & Storage/Server hardware management/Dell iDRAC.md
+11 Virtualization & Storage/Server hardware management/HPE iLO.md
+11 Virtualization & Storage/Server hardware management/Hardware RAID controllers.md
+11 Virtualization & Storage/Server hardware management/Lenovo XClarity Controller.md
+11 Virtualization & Storage/Server hardware management/Server hardware management.md
+11 Virtualization & Storage/Server hardware management/Supermicro IPMI.md
+11 Virtualization & Storage/Storage arrays & NAS/Dell PowerStore.md
+11 Virtualization & Storage/Storage arrays & NAS/Dell PowerVault ME.md
+11 Virtualization & Storage/Storage arrays & NAS/HPE Alletra.md
+11 Virtualization & Storage/Storage arrays & NAS/HPE MSA.md
+11 Virtualization & Storage/Storage arrays & NAS/Lenovo ThinkSystem DE-Series.md
+11 Virtualization & Storage/Storage arrays & NAS/NetApp ONTAP.md
+11 Virtualization & Storage/Storage arrays & NAS/Pure Storage FlashArray.md
+11 Virtualization & Storage/Storage arrays & NAS/QNAP NAS.md
+11 Virtualization & Storage/Storage arrays & NAS/Storage Spaces Direct.md
+11 Virtualization & Storage/Storage arrays & NAS/Storage arrays & NAS.md
+11 Virtualization & Storage/Storage arrays & NAS/Synology NAS.md
+11 Virtualization & Storage/Storage arrays & NAS/TrueNAS.md
+11 Virtualization & Storage/VDI & app delivery/Azure Virtual Desktop.md
+11 Virtualization & Storage/VDI & app delivery/Citrix Virtual Apps and Desktops.md
+11 Virtualization & Storage/VDI & app delivery/Omnissa Horizon.md
+11 Virtualization & Storage/VDI & app delivery/Parallels RAS.md
+11 Virtualization & Storage/VDI & app delivery/VDI & app delivery.md
+11 Virtualization & Storage/VDI & app delivery/Windows 365.md
+11 Virtualization & Storage/Virtualization & Storage.md
+12 Cloud & SaaS/AI assistants/AI assistants.md
+12 Cloud & SaaS/AI assistants/Azure OpenAI Service.md
+12 Cloud & SaaS/AI assistants/ChatGPT Enterprise.md
+12 Cloud & SaaS/AI assistants/Gemini for Google Workspace.md
+12 Cloud & SaaS/AI assistants/Microsoft 365 Copilot.md
+12 Cloud & SaaS/AI assistants/Microsoft Copilot Studio.md
+12 Cloud & SaaS/Cloud & SaaS.md
+12 Cloud & SaaS/Microsoft 365 workloads/Exchange Online.md
+12 Cloud & SaaS/Microsoft 365 workloads/Microsoft 365 admin center.md
+12 Cloud & SaaS/Microsoft 365 workloads/Microsoft 365 workloads.md
+12 Cloud & SaaS/Microsoft 365 workloads/Microsoft 365.md
+12 Cloud & SaaS/Microsoft 365 workloads/Microsoft Graph.md
+12 Cloud & SaaS/Microsoft 365 workloads/Microsoft Teams.md
+12 Cloud & SaaS/Microsoft 365 workloads/SharePoint & OneDrive.md
+12 Cloud & SaaS/Productivity suites/Box.md
+12 Cloud & SaaS/Productivity suites/Dropbox.md
+12 Cloud & SaaS/Productivity suites/Google Workspace.md
+12 Cloud & SaaS/Productivity suites/Productivity suites.md
+12 Cloud & SaaS/Productivity suites/Slack.md
+12 Cloud & SaaS/Productivity suites/Zoom Workplace.md
+12 Cloud & SaaS/Public cloud/Amazon Web Services.md
+12 Cloud & SaaS/Public cloud/Azure Arc.md
+12 Cloud & SaaS/Public cloud/Google Cloud.md
+12 Cloud & SaaS/Public cloud/Microsoft Azure.md
+12 Cloud & SaaS/Public cloud/Public cloud.md
+13 Databases & Apps/Databases & Applications.md
+13 Databases & Apps/Exchange Server.md
+13 Databases & Apps/Microsoft SQL Server.md
+13 Databases & Apps/MongoDB.md
+13 Databases & Apps/MySQL & MariaDB.md
+13 Databases & Apps/Oracle Database.md
+13 Databases & Apps/PostgreSQL.md
+13 Databases & Apps/QuickBooks Desktop.md
+13 Databases & Apps/Redis.md
+14 Power & Facilities/APC NetBotz.md
+14 Power & Facilities/APC Smart-UPS.md
+14 Power & Facilities/CyberPower.md
+14 Power & Facilities/Eaton UPS.md
+14 Power & Facilities/Power & Facilities.md
+14 Power & Facilities/Raritan PDU.md
+14 Power & Facilities/Vertiv Liebert.md
+15 Voice & UC/3CX.md
+15 Voice & UC/Cisco Webex.md
+15 Voice & UC/Microsoft Teams Phone.md
+15 Voice & UC/Microsoft Teams Rooms.md
+15 Voice & UC/RingCentral.md
+15 Voice & UC/Voice & UC.md
+15 Voice & UC/Yealink.md
+15 Voice & UC/Zoom Phone.md
+16 Automation/Ansible.md
+16 Automation/Automation & Scripting.md
+16 Automation/Azure Automation.md
+16 Automation/Azure Logic Apps.md
+16 Automation/Bash.md
+16 Automation/Git.md
+16 Automation/ImmyBot.md
+16 Automation/Microsoft Graph PowerShell SDK.md
+16 Automation/Power Automate.md
+16 Automation/PowerShell.md
+16 Automation/Python.md
+16 Automation/Rewst.md
+16 Automation/Sysinternals Suite.md
+16 Automation/Terraform.md
+16 Automation/Windows Admin Center.md
+16 Automation/n8n.md
+17 Help Desk/Email & Outlook problems/Email & Outlook problems.md
+17 Help Desk/Email & Outlook problems/Email stuck in Outbox.md
+17 Help Desk/Email & Outlook problems/Email went to junk.md
+17 Help Desk/Email & Outlook problems/Mailbox full.md
+17 Help Desk/Email & Outlook problems/Outlook not receiving email.md
+17 Help Desk/Email & Outlook problems/Outlook search not working.md
+17 Help Desk/Email & Outlook problems/Outlook won't open.md
+17 Help Desk/Email & Outlook problems/Recover a deleted email.md
+17 Help Desk/Email & Outlook problems/Set up out of office.md
+17 Help Desk/Email & Outlook problems/Share a calendar or give delegate access.md
+17 Help Desk/Email & Outlook problems/Shared mailbox missing.md
+17 Help Desk/Help Desk.md
+17 Help Desk/Internet & Wi-Fi problems/Can't open a shared drive.md
+17 Help Desk/Internet & Wi-Fi problems/Internet & Wi-Fi problems.md
+17 Help Desk/Internet & Wi-Fi problems/No internet.md
+17 Help Desk/Internet & Wi-Fi problems/Remote Desktop won't connect.md
+17 Help Desk/Internet & Wi-Fi problems/Slow internet when working from home.md
+17 Help Desk/Internet & Wi-Fi problems/VPN won't connect.md
+17 Help Desk/Internet & Wi-Fi problems/Website won't load.md
+17 Help Desk/Internet & Wi-Fi problems/Wi-Fi slow or drops.md
+17 Help Desk/Internet & Wi-Fi problems/Wi-Fi won't connect.md
+17 Help Desk/Mac problems/Mac app won't open.md
+17 Help Desk/Mac problems/Mac disk full.md
+17 Help Desk/Mac problems/Mac is slow.md
+17 Help Desk/Mac problems/Mac problems.md
+17 Help Desk/Mac problems/Mac won't start.md
+17 Help Desk/Microsoft 365 & Teams problems/Access denied to a shared file.md
+17 Help Desk/Microsoft 365 & Teams problems/Excel or Word file won't open or is corrupted.md
+17 Help Desk/Microsoft 365 & Teams problems/File locked or in use.md
+17 Help Desk/Microsoft 365 & Teams problems/Microsoft 365 & Teams problems.md
+17 Help Desk/Microsoft 365 & Teams problems/Office activation error.md
+17 Help Desk/Microsoft 365 & Teams problems/OneDrive not syncing.md
+17 Help Desk/Microsoft 365 & Teams problems/Recover a deleted file.md
+17 Help Desk/Microsoft 365 & Teams problems/Teams camera or mic not working.md
+17 Help Desk/Microsoft 365 & Teams problems/Teams notifications not showing.md
+17 Help Desk/Microsoft 365 & Teams problems/Teams won't sign in or keeps loading.md
+17 Help Desk/New starters & leavers/Leaver offboarding.md
+17 Help Desk/New starters & leavers/New laptop setup.md
+17 Help Desk/New starters & leavers/New starter setup.md
+17 Help Desk/New starters & leavers/New starters & leavers.md
+17 Help Desk/Phone & tablet problems/Lost or stolen device.md
+17 Help Desk/Phone & tablet problems/Phone & tablet problems.md
+17 Help Desk/Phone & tablet problems/Phone email not syncing.md
+17 Help Desk/Phone & tablet problems/Set up work email on a phone.md
+17 Help Desk/Printer & scanner problems/Add a network printer.md
+17 Help Desk/Printer & scanner problems/Print job stuck.md
+17 Help Desk/Printer & scanner problems/Printer & scanner problems.md
+17 Help Desk/Printer & scanner problems/Printer offline.md
+17 Help Desk/Printer & scanner problems/Prints look wrong.md
+17 Help Desk/Printer & scanner problems/Scan to email not working.md
+17 Help Desk/Security & scam problems/Account hacked or sending spam.md
+17 Help Desk/Security & scam problems/Clicked a phishing link.md
+17 Help Desk/Security & scam problems/Fake virus pop-up.md
+17 Help Desk/Security & scam problems/Security & scam problems.md
+17 Help Desk/Security & scam problems/Suspicious USB drive.md
+17 Help Desk/Security & scam problems/Suspicious email.md
+17 Help Desk/Security & scam problems/Text message or phone call scam.md
+17 Help Desk/Sign-in & password problems/Account locked out.md
+17 Help Desk/Sign-in & password problems/Can't sign in to Microsoft 365.md
+17 Help Desk/Sign-in & password problems/Change your password.md
+17 Help Desk/Sign-in & password problems/Forgot password.md
+17 Help Desk/Sign-in & password problems/MFA not working or new phone.md
+17 Help Desk/Sign-in & password problems/MFA when travelling or no signal.md
+17 Help Desk/Sign-in & password problems/Sign-in & password problems.md
+17 Help Desk/Sign-in & password problems/Trust relationship failed.md
+17 Help Desk/Software & app problems/Adobe Acrobat asks to sign in or license.md
+17 Help Desk/Software & app problems/App crashes or won't open.md
+17 Help Desk/Software & app problems/Browser acting up.md
+17 Help Desk/Software & app problems/Install software request.md
+17 Help Desk/Software & app problems/Software & app problems.md
+17 Help Desk/Windows PC problems/Blue screen (BSOD).md
+17 Help Desk/Windows PC problems/Bluetooth device won't pair.md
+17 Help Desk/Windows PC problems/Computer won't start Windows.md
+17 Help Desk/Windows PC problems/Disk full on a PC.md
+17 Help Desk/Windows PC problems/Docking station not working.md
+17 Help Desk/Windows PC problems/Frozen app or Not Responding.md
+17 Help Desk/Windows PC problems/Keyboard or mouse not working.md
+17 Help Desk/Windows PC problems/Laptop battery drains fast.md
+17 Help Desk/Windows PC problems/Laptop overheating or loud fan.md
+17 Help Desk/Windows PC problems/No sound or microphone.md
+17 Help Desk/Windows PC problems/PC is slow.md
+17 Help Desk/Windows PC problems/PC won't turn on.md
+17 Help Desk/Windows PC problems/Screen or second monitor not working.md
+17 Help Desk/Windows PC problems/Time or date is wrong.md
+17 Help Desk/Windows PC problems/Webcam not detected.md
+17 Help Desk/Windows PC problems/Windows PC problems.md
+17 Help Desk/Windows PC problems/Windows not activated.md
+17 Help Desk/Windows PC problems/Windows updates stuck.md
+18 DevOps & Containers/Containers & orchestration/Amazon EKS.md
+18 DevOps & Containers/Containers & orchestration/Azure Kubernetes Service.md
+18 DevOps & Containers/Containers & orchestration/Containers & orchestration.md
+18 DevOps & Containers/Containers & orchestration/Docker.md
+18 DevOps & Containers/Containers & orchestration/Helm.md
+18 DevOps & Containers/Containers & orchestration/Kubernetes.md
+18 DevOps & Containers/Containers & orchestration/Podman.md
+18 DevOps & Containers/DevOps & Containers.md
+18 DevOps & Containers/Infrastructure as code & config/Bicep.md
+18 DevOps & Containers/Infrastructure as code & config/Infrastructure as code & config.md
+18 DevOps & Containers/Infrastructure as code & config/PowerShell DSC.md
+18 DevOps & Containers/Infrastructure as code & config/Puppet.md
+18 DevOps & Containers/Secrets management/Azure Key Vault.md
+18 DevOps & Containers/Secrets management/HashiCorp Vault.md
+18 DevOps & Containers/Secrets management/Secrets management.md
+18 DevOps & Containers/Source control & pipelines/Azure DevOps.md
+18 DevOps & Containers/Source control & pipelines/GitHub Actions.md
+18 DevOps & Containers/Source control & pipelines/GitHub.md
+18 DevOps & Containers/Source control & pipelines/GitLab.md
+18 DevOps & Containers/Source control & pipelines/Jenkins.md
+18 DevOps & Containers/Source control & pipelines/Source control & pipelines.md
+18 DevOps & Containers/Web servers & proxies/Apache HTTP Server.md
+18 DevOps & Containers/Web servers & proxies/Nginx.md
+18 DevOps & Containers/Web servers & proxies/Web servers & proxies.md
+19 Compliance & Governance/Compliance & Governance.md
+19 Compliance & Governance/Compliance platforms/Compliance platforms.md
+19 Compliance & Governance/Compliance platforms/Drata.md
+19 Compliance & Governance/Compliance platforms/Vanta.md
+19 Compliance & Governance/Data governance & DLP/Data governance & DLP.md
+19 Compliance & Governance/Data governance & DLP/Microsoft Purview.md
+19 Compliance & Governance/Data governance & DLP/Varonis.md
+19 Compliance & Governance/Posture & assessment/CIS-CAT Pro.md
+19 Compliance & Governance/Posture & assessment/Microsoft Secure Score.md
+19 Compliance & Governance/Posture & assessment/Posture & assessment.md
+20 Concepts/Advanced troubleshooting/Advanced troubleshooting.md
+20 Concepts/Advanced troubleshooting/Certificate chain troubleshooting.md
+20 Concepts/Advanced troubleshooting/Crash dump analysis.md
+20 Concepts/Advanced troubleshooting/Directory sync troubleshooting.md
+20 Concepts/Advanced troubleshooting/Divide and conquer troubleshooting.md
+20 Concepts/Advanced troubleshooting/Event log correlation.md
+20 Concepts/Advanced troubleshooting/Group Policy troubleshooting.md
+20 Concepts/Advanced troubleshooting/Kerberos troubleshooting.md
+20 Concepts/Advanced troubleshooting/Packet capture.md
+20 Concepts/Advanced troubleshooting/Performance analysis.md
+20 Concepts/Advanced troubleshooting/Process Monitor tracing.md
+20 Concepts/Advanced troubleshooting/SMB signing and versions.md
+20 Concepts/Advanced troubleshooting/TLS handshake troubleshooting.md
+20 Concepts/Advanced troubleshooting/Wireshark filters.md
+20 Concepts/Architecture & design/Architecture & design.md
+20 Concepts/Architecture & design/Backup architecture.md
+20 Concepts/Architecture & design/Capacity planning.md
+20 Concepts/Architecture & design/Change management.md
+20 Concepts/Architecture & design/Disaster recovery planning.md
+20 Concepts/Architecture & design/Documentation standards.md
+20 Concepts/Architecture & design/Hardening baselines.md
+20 Concepts/Architecture & design/High availability vs disaster recovery.md
+20 Concepts/Architecture & design/Hybrid identity models.md
+20 Concepts/Architecture & design/Network segmentation.md
+20 Concepts/Architecture & design/Patch rings.md
+20 Concepts/Architecture & design/Single sign-on.md
+20 Concepts/Architecture & design/Tiered administration.md
+20 Concepts/Backup concepts/3-2-1-1-0 rule.md
+20 Concepts/Backup concepts/Backup concepts.md
+20 Concepts/Backup concepts/Backup verification.md
+20 Concepts/Backup concepts/Bare-metal restore.md
+20 Concepts/Backup concepts/Changed block tracking.md
+20 Concepts/Backup concepts/Deduplication.md
+20 Concepts/Backup concepts/Full, incremental & differential.md
+20 Concepts/Backup concepts/Immutability & air gap.md
+20 Concepts/Backup concepts/Instant recovery.md
+20 Concepts/Backup concepts/RPO & RTO.md
+20 Concepts/Backup concepts/Replication vs backup.md
+20 Concepts/Backup concepts/Retention & GFS.md
+20 Concepts/Backup concepts/SaaS shared responsibility.md
+20 Concepts/Backup concepts/VSS.md
+20 Concepts/Cloud & DevOps concepts/AI in IT operations.md
+20 Concepts/Cloud & DevOps concepts/Cloud & DevOps concepts.md
+20 Concepts/Cloud & DevOps concepts/Cloud cost management.md
+20 Concepts/Cloud & DevOps concepts/Containers vs virtual machines.md
+20 Concepts/Cloud & DevOps concepts/Continuous integration and delivery.md
+20 Concepts/Cloud & DevOps concepts/IaaS, PaaS and SaaS.md
+20 Concepts/Cloud & DevOps concepts/Infrastructure as code.md
+20 Concepts/Cloud & DevOps concepts/Landing zones.md
+20 Concepts/Cloud & DevOps concepts/Secrets in scripts.md
+20 Concepts/Cloud & DevOps concepts/Source control & branching.md
+20 Concepts/Compliance & governance/CIS Controls.md
+20 Concepts/Compliance & governance/Compliance & governance.md
+20 Concepts/Compliance & governance/Cyber Essentials.md
+20 Concepts/Compliance & governance/Data classification & DLP.md
+20 Concepts/Compliance & governance/Essential Eight.md
+20 Concepts/Compliance & governance/GDPR and data privacy laws.md
+20 Concepts/Compliance & governance/HIPAA.md
+20 Concepts/Compliance & governance/ISO 27001.md
+20 Concepts/Compliance & governance/NIST Cybersecurity Framework.md
+20 Concepts/Compliance & governance/PCI DSS.md
+20 Concepts/Compliance & governance/SOC 2.md
+20 Concepts/Concepts.md
+20 Concepts/Help desk skills/Asking good questions.md
+20 Concepts/Help desk skills/Help desk skills.md
+20 Concepts/Help desk skills/Remote support etiquette.md
+20 Concepts/Help desk skills/Talking to users.md
+20 Concepts/Help desk skills/Troubleshooting method.md
+20 Concepts/Help desk skills/Writing a good ticket.md
+20 Concepts/IT basics/Backups for everyone.md
+20 Concepts/IT basics/Cache and cookies.md
+20 Concepts/IT basics/Domain-joined vs cloud-joined PCs.md
+20 Concepts/IT basics/Drivers.md
+20 Concepts/IT basics/Files, folders and drives.md
+20 Concepts/IT basics/How a computer works.md
+20 Concepts/IT basics/How the internet reaches your desk.md
+20 Concepts/IT basics/IP addresses.md
+20 Concepts/IT basics/IT basics.md
+20 Concepts/IT basics/Local vs cloud files.md
+20 Concepts/IT basics/Operating system.md
+20 Concepts/IT basics/Passwords and password managers.md
+20 Concepts/IT basics/Spotting phishing.md
+20 Concepts/IT basics/Updates and why they matter.md
+20 Concepts/IT basics/User accounts and permissions.md
+20 Concepts/IT basics/Why restarting works.md
+20 Concepts/IT basics/Wi-Fi basics.md
+20 Concepts/Monitoring concepts/Agent heartbeat.md
+20 Concepts/Monitoring concepts/Alert fatigue.md
+20 Concepts/Monitoring concepts/Environmental monitoring.md
+20 Concepts/Monitoring concepts/MTTA & MTTR.md
+20 Concepts/Monitoring concepts/Monitoring concepts.md
+20 Concepts/Monitoring concepts/Monitoring thresholds and baselines.md
+20 Concepts/Monitoring concepts/Monitoring vs observability.md
+20 Concepts/Monitoring concepts/Synthetic monitoring.md
+20 Concepts/Monitoring concepts/WMI.md
+20 Concepts/Networking concepts/802.1X.md
+20 Concepts/Networking concepts/ARP.md
+20 Concepts/Networking concepts/BGP.md
+20 Concepts/Networking concepts/DHCP.md
+20 Concepts/Networking concepts/DNS.md
+20 Concepts/Networking concepts/First-hop redundancy.md
+20 Concepts/Networking concepts/ICMP.md
+20 Concepts/Networking concepts/IPsec.md
+20 Concepts/Networking concepts/Link aggregation.md
+20 Concepts/Networking concepts/MTU.md
+20 Concepts/Networking concepts/NAT.md
+20 Concepts/Networking concepts/NTP.md
+20 Concepts/Networking concepts/NetFlow, sFlow & IPFIX.md
+20 Concepts/Networking concepts/Networking concepts.md
+20 Concepts/Networking concepts/OSI model.md
+20 Concepts/Networking concepts/OSPF.md
+20 Concepts/Networking concepts/PoE.md
+20 Concepts/Networking concepts/QoS.md
+20 Concepts/Networking concepts/SIP.md
+20 Concepts/Networking concepts/SNMP.md
+20 Concepts/Networking concepts/SSL & TLS.md
+20 Concepts/Networking concepts/Spanning Tree.md
+20 Concepts/Networking concepts/Subnetting & CIDR.md
+20 Concepts/Networking concepts/Syslog.md
+20 Concepts/Networking concepts/TCP and UDP.md
+20 Concepts/Networking concepts/VLAN.md
+20 Concepts/Operations & process/Escalation tiers.md
+20 Concepts/Operations & process/ITIL incident, problem & change.md
+20 Concepts/Operations & process/Maintenance windows.md
+20 Concepts/Operations & process/Operations & process.md
+20 Concepts/Operations & process/Root cause analysis.md
+20 Concepts/Operations & process/SLA & SLO.md
+20 Concepts/Operations & process/Severity levels.md
+20 Concepts/Operations & process/Shift handover.md
+20 Concepts/Security concepts/CVE & CVSS.md
+20 Concepts/Security concepts/EDR vs MDR vs XDR.md
+20 Concepts/Security concepts/Least privilege.md
+20 Concepts/Security concepts/Multi-factor authentication.md
+20 Concepts/Security concepts/Patch Tuesday.md
+20 Concepts/Security concepts/SPF, DKIM & DMARC.md
+20 Concepts/Security concepts/Security concepts.md
+20 Concepts/Security concepts/Zero Trust.md
+20 Concepts/Windows & identity concepts/Certificates & PKI.md
+20 Concepts/Windows & identity concepts/FSMO roles.md
+20 Concepts/Windows & identity concepts/Kerberos.md
+20 Concepts/Windows & identity concepts/LDAP.md
+20 Concepts/Windows & identity concepts/NTLM.md
+20 Concepts/Windows & identity concepts/RAID levels.md
+20 Concepts/Windows & identity concepts/SMART.md
+20 Concepts/Windows & identity concepts/Windows & identity concepts.md
+20 Concepts/Windows & identity concepts/Windows Event Log.md
+30 Playbooks/AD replication failure.md
+30 Playbooks/Account lockout storm.md
+30 Playbooks/Agent offline.md
+30 Playbooks/Azure VM unreachable.md
+30 Playbooks/Backup copy & replication lag.md
+30 Playbooks/Backup job failed.md
+30 Playbooks/Bad patch rollout.md
+30 Playbooks/BitLocker recovery screens.md
+30 Playbooks/Broadcast storm or network loop.md
+30 Playbooks/Business email compromise.md
+30 Playbooks/Certificate expiring.md
+30 Playbooks/Certificate trust errors.md
+30 Playbooks/DHCP scope exhausted.md
+30 Playbooks/DNS resolution failure.md
+30 Playbooks/Datastore or CSV low space.md
+30 Playbooks/Domain controller failure.md
+30 Playbooks/EDR threat detected.md
+30 Playbooks/Email delivery problems.md
+30 Playbooks/Entra Connect sync errors.md
+30 Playbooks/FSLogix profile failed to load.md
+30 Playbooks/Firewall WAN down.md
+30 Playbooks/Group Policy not applying.md
+30 Playbooks/High CPU.md
+30 Playbooks/High disk latency.md
+30 Playbooks/High latency.md
+30 Playbooks/High memory.md
+30 Playbooks/Hypervisor host disconnected.md
+30 Playbooks/Interface errors and packet loss.md
+30 Playbooks/Kerberos authentication failures.md
+30 Playbooks/Low disk space.md
+30 Playbooks/Patch failure or pending reboot.md
+30 Playbooks/Playbooks.md
+30 Playbooks/RAID degraded.md
+30 Playbooks/SMART predictive failure.md
+30 Playbooks/SQL Server problems.md
+30 Playbooks/SaaS backup failing.md
+30 Playbooks/Screenshot verification failed.md
+30 Playbooks/Server unreachable.md
+30 Playbooks/Snapshot age.md
+30 Playbooks/Suspected ransomware.md
+30 Playbooks/Temperature alarm.md
+30 Playbooks/Time drift.md
+30 Playbooks/UPS on battery.md
+30 Playbooks/VM won't start.md
+30 Playbooks/VPN tunnel down.md
+30 Playbooks/VSS writer failure.md
+30 Playbooks/Voice quality problems.md
+30 Playbooks/Website down.md
+30 Playbooks/Windows service stopped.md
+40 Reference/Agent & service names.md
+40 Reference/ESXi and Hyper-V command cheat sheet.md
+40 Reference/Glossary.md
+40 Reference/Linux command cheat sheet.md
+40 Reference/Log locations.md
+40 Reference/Microsoft 365 PowerShell cheat sheet.md
+40 Reference/Network device command cheat sheet.md
+40 Reference/Port reference.md
+40 Reference/Product lifecycle dates.md
+40 Reference/RCA format.md
+40 Reference/Reference.md
+40 Reference/Vendor & acquisition map.md
+40 Reference/Windows Event ID reference.md
+40 Reference/Windows command cheat sheet.md
+50 Vendors/Acronis.md
+50 Vendors/Apache Software Foundation.md
+50 Vendors/Apple.md
+50 Vendors/Arcserve.md
+50 Vendors/Arctera.md
+50 Vendors/Atlassian.md
+50 Vendors/AvePoint.md
+50 Vendors/Axcient.md
+50 Vendors/Backblaze.md
+50 Vendors/Barracuda.md
+50 Vendors/BeyondTrust.md
+50 Vendors/Bitdefender.md
+50 Vendors/Broadcom.md
+50 Vendors/CNCF.md
+50 Vendors/Canonical.md
+50 Vendors/Cato Networks.md
+50 Vendors/Center for Internet Security.md
+50 Vendors/Chocolatey Software.md
+50 Vendors/Cisco.md
+50 Vendors/Cloud Software Group.md
+50 Vendors/Cloudflare.md
+50 Vendors/CommScope.md
+50 Vendors/ConnectWise.md
+50 Vendors/CrowdStrike.md
+50 Vendors/Deciso.md
+50 Vendors/Dell Technologies.md
+50 Vendors/Dell.md
+50 Vendors/ESET.md
+50 Vendors/Eaton.md
+50 Vendors/Elastic.md
+50 Vendors/F5.md
+50 Vendors/Fortinet.md
+50 Vendors/Freshworks.md
+50 Vendors/Google.md
+50 Vendors/Grafana Labs.md
+50 Vendors/HAProxy Technologies.md
+50 Vendors/HP.md
+50 Vendors/HPE.md
+50 Vendors/Halo.md
+50 Vendors/HashiCorp.md
+50 Vendors/Hornetsecurity.md
+50 Vendors/Intuit.md
+50 Vendors/Jamf.md
+50 Vendors/Jenkins project.md
+50 Vendors/Kaseya.md
+50 Vendors/Keeper Security.md
+50 Vendors/Legrand.md
+50 Vendors/Lenovo.md
+50 Vendors/Malwarebytes.md
+50 Vendors/ManageEngine.md
+50 Vendors/Microsoft.md
+50 Vendors/N-able.md
+50 Vendors/Nakivo.md
+50 Vendors/NetApp.md
+50 Vendors/Netgate.md
+50 Vendors/Ninite.md
+50 Vendors/Nutanix.md
+50 Vendors/Omnissa.md
+50 Vendors/OpenAI.md
+50 Vendors/OpenBSD project.md
+50 Vendors/OpenText.md
+50 Vendors/Oracle.md
+50 Vendors/PDQ.md
+50 Vendors/Paessler.md
+50 Vendors/Palo Alto Networks.md
+50 Vendors/Parallels.md
+50 Vendors/Perforce.md
+50 Vendors/Progress.md
+50 Vendors/Proxmox.md
+50 Vendors/Pure Storage.md
+50 Vendors/QNAP.md
+50 Vendors/Qualys.md
+50 Vendors/Rapid7.md
+50 Vendors/Red Hat.md
+50 Vendors/Salesforce.md
+50 Vendors/Samba team.md
+50 Vendors/Schneider Electric.md
+50 Vendors/ServiceNow.md
+50 Vendors/SolarWinds.md
+50 Vendors/Sophos.md
+50 Vendors/Supermicro.md
+50 Vendors/Synology.md
+50 Vendors/Tenable.md
+50 Vendors/TitanHQ.md
+50 Vendors/Ubiquiti.md
+50 Vendors/Veeam.md
+50 Vendors/Vendors.md
+50 Vendors/Vertiv.md
+50 Vendors/WatchGuard.md
+50 Vendors/Zoom.md
+50 Vendors/iXsystems.md
+90 Templates/Concept.md
+90 Templates/Help desk guide.md
+90 Templates/Playbook.md
+90 Templates/Tool.md
+90 Templates/Vendor.md
+CLAUDE.md
+Start here.md
