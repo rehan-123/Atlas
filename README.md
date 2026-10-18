@@ -25,7 +25,7 @@ New to support? Start with the basics. On a ticket? Follow the first checks. An 
 <br>
 
 <div align="center">
-  <img src="assets/atlas-knowledge-map.svg" width="100%" alt="The Atlast knowledge map connects learning, troubleshooting, incident response, system concepts, tools, and quick references around one compass.">
+  <img src="assets/atlas-path.svg" width="100%" alt="A three-step IT guide: learn the system, find the cause, then make the next move, supported by concepts, tools, and quick references.">
 </div>
 
 The same map helps you **learn the foundations**, **understand what a symptom points to**, then **follow a proven response**. Concepts, tools, vendor notes, and quick references are linked along the way.
