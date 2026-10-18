@@ -1,4 +1,4 @@
-# Contributing to Atlast
+# Contributing to Atlas
 
 Thanks for helping make the atlas more useful. Good contributions are accurate, practical, and easy for a new technician to follow.
 

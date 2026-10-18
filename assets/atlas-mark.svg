@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Atlast compass mark</title>
+  <title id="title">Atlas compass mark</title>
   <desc id="desc">A teal compass connecting four points around an atlas grid.</desc>
   <defs>
     <linearGradient id="a" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">

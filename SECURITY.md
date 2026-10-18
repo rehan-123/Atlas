@@ -1,6 +1,6 @@
 # Security policy
 
-Atlast is a community knowledge base, not a supported security product. Treat commands and procedures as examples: verify them against current vendor documentation and your organization's controls before use.
+Atlas is a community knowledge base, not a supported security product. Treat commands and procedures as examples: verify them against current vendor documentation and your organization's controls before use.
 
 ## Reporting a concern
 
