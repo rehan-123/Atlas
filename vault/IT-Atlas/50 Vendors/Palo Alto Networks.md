@@ -1,0 +1,21 @@
+---
+type: "vendor"
+level: "All"
+tags:
+  - "vendor"
+as_of: "2026-06"
+created: "2026-10-18"
+updated: "2026-10-18"
+---
+
+# Palo Alto Networks
+
+PAN-OS firewalls, Prisma Access and GlobalProtect.
+
+Part of [[Vendors]].
+
+## Products in this atlas
+
+- [[GlobalProtect]] ([[Networking]])
+- [[Palo Alto Networks NGFW]] ([[Networking]])
+- [[Prisma Access]] ([[Security]])

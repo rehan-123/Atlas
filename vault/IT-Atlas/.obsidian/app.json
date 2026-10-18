@@ -1,0 +1,10 @@
+{
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "_system/"
+  ]
+}

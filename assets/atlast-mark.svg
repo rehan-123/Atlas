@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Atlast compass mark</title>
+  <desc id="desc">A teal compass connecting four points around an atlas grid.</desc>
+  <defs>
+    <linearGradient id="a" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52e3c2"/>
+      <stop offset="1" stop-color="#5f9fff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="55" fill="#091625" stroke="#1e3a50" stroke-width="2"/>
+  <circle cx="64" cy="64" r="38" fill="none" stroke="#173449" stroke-width="1.5"/>
+  <path d="M64 10v12m0 84v12M10 64h12m84 0h12M26 26l9 9m58 58 9 9m0-76-9 9m-58 58-9 9" stroke="#31536b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M64 32 78 61 96 72 67 68 52 96 59 67 32 52 60 59z" fill="url(#a)"/>
+  <circle cx="64" cy="64" r="5" fill="#f1bf70" stroke="#091625" stroke-width="2"/>
+  <circle cx="64" cy="17" r="3" fill="#52e3c2"/>
+  <circle cx="111" cy="64" r="3" fill="#5f9fff"/>
+</svg>

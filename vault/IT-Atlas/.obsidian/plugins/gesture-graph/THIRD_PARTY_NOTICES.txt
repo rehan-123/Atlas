@@ -1,0 +1,8 @@
+This plugin bundles:
+- MediaPipe Tasks Vision (@mediapipe/tasks-vision 1.0.1), Apache License 2.0, Copyright Google LLC. https://github.com/google-ai-edge/mediapipe
+- 3d-force-graph 1.80.0, MIT License, Copyright Vasco Asturiano. https://github.com/vasturiano/3d-force-graph
+- three-spritetext 1.10.0, MIT License, Copyright Vasco Asturiano. https://github.com/vasturiano/three-spritetext
+- three.js 0.186, MIT License, Copyright three.js authors. https://github.com/mrdoob/three.js
+The MediaPipe hand landmarker model is downloaded at runtime from Google and is covered by Google's terms for MediaPipe models.
+Full license texts accompany the bundled code at the end of main.js and on the project pages above.
+bridge.js (the browser camera page script) bundles MediaPipe Tasks Vision under the same Apache License 2.0.
