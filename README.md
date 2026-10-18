@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/atlast-cover.png" alt="A glowing map connects servers, cloud, security, support, and a compass" width="100%">
+  <img src="assets/atlas-cover.png" alt="A glowing map connects servers, cloud, security, support, and a compass" width="100%">
   <br><br>
-  <h1>Atlast</h1>
+  <h1>Atlas</h1>
   <strong>One connected atlas for learning IT, fixing problems, and keeping services running.</strong>
   <br><br>
   <a href="demo/IT-Atlas.html">✦ Explore the interactive demo</a>
@@ -20,7 +20,7 @@
 
 ## Find your way through IT
 
-On a ticket? Start with the checks. Learning IT? Follow the path. An alert fired? Open a playbook. **Atlast links each step to the tools and concepts behind it.**
+On a ticket? Start with the checks. Learning IT? Follow the path. An alert fired? Open a playbook. **Atlas links each step to the tools and concepts behind it.**
 
 <br>
 
