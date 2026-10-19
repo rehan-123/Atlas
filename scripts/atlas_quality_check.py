@@ -50,11 +50,28 @@ for file_path in ROOT.rglob("*"):
         content = file_path.read_text(encoding="utf-8")
     except (UnicodeDecodeError, OSError):
         continue
+    # The interactive demo intentionally embeds a large content JSON payload.
+    # Its source notes are scanned separately; omit the serialized data so that
+    # this check validates authored UI copy rather than duplicated generated text.
+    if file_path.suffix.lower() == ".html":
+        content = re.sub(
+            r'<script\\s+type="application/json"\\s+id="itb-data">.*?</script>',
+            "",
+            content,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        content = re.sub(r"url\\(\\s*data:[^)]*\\)", "url([embedded-font-data])", content, flags=re.IGNORECASE)
     checked += 1
+    payload_lines_skipped = 0
     for line_no, line in enumerate(content.splitlines(), start=1):
-        # Do not report matches in a literal generated source-map payload.
+        # Install/update scripts and embedded fonts may carry generated payloads.
+        if len(line) > 100_000:
+            payload_lines_skipped += 1
+            continue
         if TYPO.search(line):
             failures.append(f"Brand spelling: {file_path.relative_to(ROOT)}:{line_no}")
+    if payload_lines_skipped:
+        print(f"Skipped {payload_lines_skipped} generated payload line(s): {file_path.relative_to(ROOT)}")
 
 # Parse repository-owned SVGs as XML to catch broken markup.
 for svg_path in ROOT.rglob("*.svg"):
