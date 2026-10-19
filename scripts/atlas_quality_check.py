@@ -17,7 +17,7 @@ from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_SUFFIXES = {".md", ".html", ".css", ".js", ".json", ".svg", ".py", ".ps1", ".sh", ".txt", ".yml", ".yaml"}
+TEXT_SUFFIXES = {".md", ".html", ".css", ".js", ".json", ".svg", ".py", ".ps1", ".sh", ".txt", ".csv", ".yml", ".yaml"}
 SKIP_PARTS = {".git", "node_modules"}
 THIRD_PARTY_PREFIXES = (
     "vault/IT-Atlas/.obsidian/plugins/",
