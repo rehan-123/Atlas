@@ -55,12 +55,12 @@ for file_path in ROOT.rglob("*"):
     # this check validates authored UI copy rather than duplicated generated text.
     if file_path.suffix.lower() == ".html":
         content = re.sub(
-            r'<script\\s+type="application/json"\\s+id="itb-data">.*?</script>',
+            r'<script\s+type="application/json"\s+id="itb-data">.*?</script>',
             "",
             content,
             flags=re.IGNORECASE | re.DOTALL,
         )
-        content = re.sub(r"url\\(\\s*data:[^)]*\\)", "url([embedded-font-data])", content, flags=re.IGNORECASE)
+        content = re.sub(r"url\(\s*data:[^)]*\)", "url([embedded-font-data])", content, flags=re.IGNORECASE)
     checked += 1
     payload_lines_skipped = 0
     for line_no, line in enumerate(content.splitlines(), start=1):
