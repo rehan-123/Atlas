@@ -1,87 +1,87 @@
-<div align="center">
-  <img src="assets/atlas-cover.png" alt="A glowing map connects servers, cloud, security, support, and a compass" width="100%">
-  <br><br>
-  <h1>Atlas</h1>
-  <strong>One connected atlas for learning IT, fixing problems, and keeping services running.</strong>
-  <br><br>
-  <a href="demo/IT-Atlas.html">✦ Explore the interactive demo</a>
-  &nbsp; · &nbsp;
-  <a href="vault/IT-Atlas/Start%20here.md">🧭 Open the vault</a>
-  &nbsp; · &nbsp;
-  <a href="CONTRIBUTING.md">✍️ Contribute</a>
-  <br><br>
-  <img src="https://img.shields.io/badge/Obsidian-vault-8E78F5?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault">
-  <img src="https://img.shields.io/badge/76-guides-42C7B7?style=flat-square" alt="76 help desk guides">
-  <img src="https://img.shields.io/badge/48-playbooks-F2B86B?style=flat-square" alt="48 incident playbooks">
+# Atlas
+
+<p align="center">
+  <img src="assets/atlas-cover.png" alt="Atlas: a connected map of IT systems, support, security, cloud, and operations" width="100%">
+</p>
+
+<p align="center">
+  <strong>One connected atlas for learning IT, troubleshooting with confidence, and keeping services running.</strong>
+</p>
+
+<p align="center">
+  <a href="demo/IT-Atlas.html"><strong>Explore the interactive demo ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="vault/IT-Atlas/Start%20here.md">Open the Obsidian vault</a>
+  &nbsp;·&nbsp;
+  <a href="CONTRIBUTING.md">Contribute</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Obsidian-vault-8E78F5?style=flat-square&logo=obsidian&logoColor=white" alt="Built as an Obsidian vault">
   <img src="https://img.shields.io/badge/offline-friendly-6A9EFF?style=flat-square" alt="Offline friendly">
-</div>
+</p>
 
-<br>
+---
 
-## Find your way through IT
+## From question to next step
 
-On a ticket? Start with the checks. Learning IT? Follow the path. An alert fired? Open a playbook. **Atlas links each step to the tools and concepts behind it.**
+Whether you're learning the fundamentals, working a support ticket, or responding to an alert, Atlas connects **the concept, the tool, the checks, and the playbook** instead of leaving them as isolated notes.
 
-<br>
+<p align="center">
+  <img src="assets/atlas-workflow.svg" alt="Atlas workflow: learn the system, diagnose with evidence, then resolve or escalate with a useful record" width="100%">
+</p>
 
-<div align="center">
-  <img src="assets/atlas-path.svg" width="100%" alt="A three-step IT guide: learn the system, find the cause, then make the next move, supported by concepts, tools, and quick references.">
-</div>
+## Explore Atlas
 
-Each path links to relevant concepts, tools, vendor notes, and quick references.
-
-<br>
-
-## The atlas at a glance
-
-<p align="center"><strong>76</strong> guides &nbsp;·&nbsp; <strong>348</strong> tools &nbsp;·&nbsp; <strong>133</strong> concepts<br><strong>48</strong> playbooks &nbsp;·&nbsp; <strong>170</strong> vendor notes</p>
-
-<br>
-
-## Pick a starting point
-
-| 🪄 I want to… | Go here |
+| Start with… | Use it for |
 | --- | --- |
-| Start a new IT career | [The 10-week learning path](vault/IT-Atlas/00%20Home/Learning%20path/Learning%20path.md) |
-| Work through a common support issue | [Help desk guides](vault/IT-Atlas/17%20Help%20Desk/Help%20Desk.md) |
-| Respond to an alert | [Incident playbooks](vault/IT-Atlas/30%20Playbooks/Playbooks.md) |
-| Get my bearings | [Home: the main map](vault/IT-Atlas/00%20Home/Home.md) |
-| Look up a product | [The tool database](vault/IT-Atlas/00%20Home/Tool%20database.md) |
-| Check a port, log path, or event ID | [Reference sheets](vault/IT-Atlas/40%20Reference/Reference.md) |
+| [Interactive demo](demo/IT-Atlas.html) | Browse the knowledge map, filter content by experience level, search common fixes, and open the interactive graph. |
+| [Home map](vault/IT-Atlas/00%20Home/Home.md) | Navigate categories, concepts, tools, references, and incident playbooks. |
+| [10-week learning path](vault/IT-Atlas/00%20Home/Learning%20path/Learning%20path.md) | Build foundational IT knowledge progressively, from computer basics through NOC operations. |
+| [Help desk guides](vault/IT-Atlas/17%20Help%20Desk/Help%20Desk.md) | Follow practical first checks, technical troubleshooting, escalation cues, and ticket-writing templates. |
+| [Incident playbooks](vault/IT-Atlas/30%20Playbooks/Playbooks.md) | Work through common operational alerts using repeatable steps. |
+| [Reference sheets](vault/IT-Atlas/40%20Reference/Reference.md) | Quickly look up ports, Windows event IDs, logs, and common commands. |
+| [Tool database](vault/IT-Atlas/00%20Home/Tool%20database.md) | Scan the tools used across IT operations and service delivery. |
 
-<br>
+## What's inside
 
-## See it in motion
+Atlas is organized around the way IT work actually happens:
 
-**[Open the standalone interactive atlas ↗](demo/IT-Atlas.html)** in a modern browser. No build step or server needed. It’s a visual overview of the same world mapped by the full vault.
+- **Learn:** plain-English concepts, a structured learning path, and career tracks from junior technician to senior engineer.
+- **Troubleshoot:** help desk guides with safe first steps, deeper technician checks, common causes, and escalation guidance.
+- **Respond:** incident playbooks that turn alerts into a clear first-five-minutes workflow and a useful ticket update.
+- **Connect the dots:** links between products, concepts, vendors, operational procedures, and reference material.
+- **Keep exploring:** a visual, interactive graph and a local-first Obsidian vault.
 
-## Get the full vault
+The vault currently advertises **76 help desk guides, 348 tools, 133 concepts, 48 playbooks, and 90 vendor notes**. Treat these as a content snapshot; validate them against the vault before publishing an updated release.
+
+## Get started
+
+### Browse the interactive demo
+
+Open [the standalone Atlas demo](demo/IT-Atlas.html) in a modern browser. It does not require a build step or a running server.
+
+### Open the full vault
 
 1. Install [Obsidian](https://obsidian.md/).
 2. Clone or download this repository.
 3. In Obsidian, choose **Open folder as vault** and select `vault/IT-Atlas/`.
-4. Open **Start here**, then visit **Home** for the big picture.
+4. Open [Start here](vault/IT-Atlas/Start%20here.md), then go to [Home](vault/IT-Atlas/00%20Home/Home.md).
 
-The included `setup-it-atlas.sh` and `setup-it-atlas.ps1` scripts provide guided first-time setup. Matching `update-` scripts back up an existing vault before updating it. Review each script before running it.
+The repository includes guided setup and update scripts for supported platforms: `setup-it-atlas.sh`, `setup-it-atlas.ps1`, `update-it-atlas.sh`, and `update-it-atlas.ps1`. Review scripts before running them. The update scripts are designed to back up an existing vault before updating it.
 
 <details>
-  <summary><strong>Optional extras: Dataview and the 3D Gesture Graph</strong></summary>
-  <br>
-  Dataview powers live tables in the vault. Gesture Graph adds a 3D view of the connected notes; hand control is optional and requests camera access only when enabled. Review the plugin’s <a href="vault/IT-Atlas/.obsidian/plugins/gesture-graph/README.md">privacy and network notes</a> and <a href="vault/IT-Atlas/.obsidian/plugins/gesture-graph/THIRD_PARTY_NOTICES.txt">third-party notices</a> before enabling community plugins.
+  <summary><strong>Optional Obsidian features and privacy notes</strong></summary>
+
+  The Dataview community plugin powers live tables in the vault. Gesture Graph adds a 3D view of linked notes; hand control is optional and requests camera access only when enabled. Before enabling community plugins, review the [Gesture Graph privacy and network notes](vault/IT-Atlas/.obsidian/plugins/gesture-graph/README.md) and its [third-party notices](vault/IT-Atlas/.obsidian/plugins/gesture-graph/THIRD_PARTY_NOTICES.txt).
 </details>
 
-<br>
+## Quality and contributions
 
-## Made to be useful—and checked
+Atlas is a community knowledge base, not a substitute for your organization's procedures. Product names, ownership, ports, log paths, and lifecycle details can change; verify time-sensitive information against current vendor documentation before acting. Some entries are explicitly marked for verification.
 
-Notes are written in plain English, organized by experience level, and linked across tools, concepts, and response steps. Product details change, so verify time-sensitive facts against current vendor documentation and your organization's procedures before acting. Some entries are marked for verification.
+Corrections and practical additions are welcome. See [Contributing](CONTRIBUTING.md). Keep examples fictional: never commit real customer details, employer or host names, addresses, account identifiers, credentials, screenshots, or incident records. Bundled plugins retain their own licenses and notices. No project-wide license is included yet.
 
-**Want to help?** Corrections, sources, and practical additions are welcome. See the [contribution guide](CONTRIBUTING.md). Please keep real customer, employer, host, address, credential, and incident data out of examples and issues.
+---
 
-<br>
-
-<div align="center">
-  <sub>🧭 Keep learning. Keep mapping. Find the next step.</sub>
-</div>
-
-<sub>Bundled plugins and dependencies retain their own licenses and notices. No project-wide license is included yet.</sub>
+<p align="center"><sub>Keep learning. Keep mapping. Find the next step.</sub></p>
