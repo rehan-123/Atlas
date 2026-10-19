@@ -62,7 +62,7 @@ for file_path in ROOT.rglob("*"):
         )
         content = re.sub(r"url\(\s*data:[^)]*\)", "url([embedded-font-data])", content, flags=re.IGNORECASE)
     if file_path.suffix.lower() == ".md":
-        for raw in re.findall(r"!\\[[^\\]]*\\]\\(([^)]+)\\)", content):
+        for raw in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", content):
             target = raw.strip().split()[0].strip("<>")
             parsed = urlsplit(target)
             if parsed.scheme or target.startswith("//") or target.startswith("#") or not parsed.path:
