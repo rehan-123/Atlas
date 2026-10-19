@@ -53,7 +53,7 @@ Atlas is organized around the way IT work actually happens:
 - **Connect the dots:** links between products, concepts, vendors, operational procedures, and reference material.
 - **Keep exploring:** a visual, interactive graph and a local-first Obsidian vault.
 
-The vault currently advertises **76 help desk guides, 348 tools, 133 concepts, 48 playbooks, and 170 vendor notes**. Treat these as a content snapshot; validate them against the vault before publishing an updated release.
+The vault currently advertises **76 help desk guides, 348 tools, 133 concepts, 48 playbooks, and 90 vendor notes**. Treat these as a content snapshot; validate them against the vault before publishing an updated release.
 
 ## Get started
 
