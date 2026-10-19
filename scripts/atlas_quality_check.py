@@ -61,6 +61,18 @@ for file_path in ROOT.rglob("*"):
             flags=re.IGNORECASE | re.DOTALL,
         )
         content = re.sub(r"url\(\s*data:[^)]*\)", "url([embedded-font-data])", content, flags=re.IGNORECASE)
+    if file_path.suffix.lower() == ".md":
+        for raw in re.findall(r"!\\[[^\\]]*\\]\\(([^)]+)\\)", content):
+            target = raw.strip().split()[0].strip("<>")
+            parsed = urlsplit(target)
+            if parsed.scheme or target.startswith("//") or target.startswith("#") or not parsed.path:
+                continue
+            local = (file_path.parent / unquote(parsed.path)).resolve()
+            if not local.exists():
+                failures.append(
+                    f"Markdown image target missing: {file_path.relative_to(ROOT)} -> {target}"
+                )
+
     checked += 1
     payload_lines_skipped = 0
     for line_no, line in enumerate(content.splitlines(), start=1):
