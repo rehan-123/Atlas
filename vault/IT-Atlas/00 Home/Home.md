@@ -14,6 +14,11 @@ updated: "2026-10-18"
 
 One linked atlas of IT, written in plain English for everyone from a first-week help desk tech to a senior systems administrator: everyday fixes, every tool an MSP meets, the ideas and architecture behind them, step-by-step playbooks, deep troubleshooting, compliance and lookup tables.
 
+> [!abstract] The Atlas workflow
+> Start by understanding the system, use evidence to diagnose the issue, then follow the right fix or escalation path. Guides link to related tools, concepts, and playbooks.
+
+![[atlas-workflow.svg]]
+
 **76 help desk guides** · **348 tools** · **133 concepts** · **48 playbooks** · **13 reference sheets** · **170 vendors**
 
 ## Fix everyday problems
