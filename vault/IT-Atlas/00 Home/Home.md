@@ -17,9 +17,9 @@ One linked atlas of IT, written in plain English for everyone from a first-week 
 > [!abstract] The Atlas workflow
 > Start by understanding the system, use evidence to diagnose the issue, then follow the right fix or escalation path. Guides link to related tools, concepts, and playbooks.
 
-![[atlas-workflow.svg]]
+![Atlas workflow: learn the system, diagnose with evidence, then resolve or escalate](../_media/atlas-workflow.svg)
 
-**76 help desk guides** · **348 tools** · **133 concepts** · **48 playbooks** · **13 reference sheets** · **170 vendors**
+**76 help desk guides** · **348 tools** · **133 concepts** · **48 playbooks** · **13 reference sheets** · **90 vendors**
 
 ## Fix everyday problems
 
