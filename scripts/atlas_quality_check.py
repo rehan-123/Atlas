@@ -94,6 +94,45 @@ for svg_path in ROOT.rglob("*.svg"):
     except (ET.ParseError, OSError) as exc:
         failures.append(f"Invalid SVG {svg_path.relative_to(ROOT)}: {exc}")
 
+# Public installers may ship ONLY the IT Atlas vault and its plugin. A private vault
+# (client notes, incident records, tickets) must never be embedded in a script here.
+ALLOWED_PAYLOAD_ROOTS = {"IT-Atlas", "gesture-graph"}
+
+
+def installer_payload_roots(data: bytes) -> list[tuple[str, set[str]]]:
+    """Top-level folders of every archive embedded in an installer script."""
+    import base64
+    import io
+    import tarfile
+    import zipfile
+
+    found = []
+    for match in re.finditer(rb"<#([A-Z]+)_BEGIN\s*(.*?)\s*\1_END#>", data, re.S):
+        raw = base64.b64decode(re.sub(rb"\s", b"", match.group(2)))
+        with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+            found.append((match.group(1).decode(), {name.split("/")[0] for name in archive.namelist()}))
+    marker = re.search(rb"^__[A-Z_]*BELOW__\r?\n", data, re.M)
+    if marker:
+        raw = base64.b64decode(re.sub(rb"\s", b"", data[marker.end():]))
+        with tarfile.open(fileobj=io.BytesIO(raw), mode="r:gz") as archive:
+            found.append((marker.group(0).decode().strip(), {name.split("/")[0] for name in archive.getnames()}))
+    return found
+
+
+for installer in sorted(ROOT.glob("*-it-atlas.*")):
+    try:
+        payloads = installer_payload_roots(installer.read_bytes())
+    except Exception as exc:  # an unreadable payload fails the check; it never passes silently
+        failures.append(f"Installer payload unreadable: {installer.name} ({type(exc).__name__})")
+        continue
+    if not payloads:
+        failures.append(f"Installer has no embedded vault: {installer.name}")
+    for tag, roots in payloads:
+        extra = sorted(roots - ALLOWED_PAYLOAD_ROOTS)
+        if extra:
+            failures.append(f"Installer {installer.name} embeds {extra} ({tag}); only the IT Atlas vault may ship publicly")
+
+
 class LinkParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -142,10 +181,10 @@ else:
     failures.append("README.md missing")
 
 print(f"Text files checked for branding typo: {checked}")
-print("SVG files parsed and README local links checked.")
+print("SVG files parsed, installer payloads checked, README local links checked.")
 if failures:
     print(f"FAIL: {len(failures)} issue(s)")
     for failure in failures:
         print(f"  - {failure}")
     sys.exit(1)
-print("PASS: no branding typo, invalid SVG, or missing README local target found.")
+print("PASS: no branding typo, invalid SVG, private installer payload, or missing README local target found.")

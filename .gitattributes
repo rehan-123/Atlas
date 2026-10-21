@@ -1,0 +1,7 @@
+# Keep GitHub's language bar about the content, not the generated bundles:
+# the installers embed the whole vault, and the demo embeds its data and fonts.
+setup-it-atlas.* linguist-generated
+update-it-atlas.* linguist-generated
+demo/*.html linguist-generated
+vault/IT-Atlas/.obsidian/plugins/** linguist-vendored
+*.md linguist-detectable
